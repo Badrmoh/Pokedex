@@ -14,6 +14,7 @@
 		859875201DC129C9004A0C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8598751E1DC129C9004A0C15 /* LaunchScreen.storyboard */; };
 		8598752B1DC129C9004A0C15 /* PokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598752A1DC129C9004A0C15 /* PokedexTests.swift */; };
 		859875361DC129C9004A0C15 /* PokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859875351DC129C9004A0C15 /* PokedexUITests.swift */; };
+		85DD28551DC1317400522B8A /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 85DD28541DC1317400522B8A /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		859875311DC129C9004A0C15 /* PokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		859875351DC129C9004A0C15 /* PokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexUITests.swift; sourceTree = "<group>"; };
 		859875371DC129C9004A0C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DD28541DC1317400522B8A /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				859875171DC129C9004A0C15 /* ViewController.swift */,
 				859875191DC129C9004A0C15 /* Main.storyboard */,
 				8598751C1DC129C9004A0C15 /* Assets.xcassets */,
+				85DD28541DC1317400522B8A /* pokemon.csv */,
 				8598751E1DC129C9004A0C15 /* LaunchScreen.storyboard */,
 				859875211DC129C9004A0C15 /* Info.plist */,
 			);
@@ -237,6 +240,7 @@
 			files = (
 				859875201DC129C9004A0C15 /* LaunchScreen.storyboard in Resources */,
 				8598751D1DC129C9004A0C15 /* Assets.xcassets in Resources */,
+				85DD28551DC1317400522B8A /* pokemon.csv in Resources */,
 				8598751B1DC129C9004A0C15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				8598753C1DC129C9004A0C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8598753D1DC129C9004A0C15 /* Build configuration list for PBXNativeTarget "PokedexTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				8598753F1DC129C9004A0C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		859875401DC129C9004A0C15 /* Build configuration list for PBXNativeTarget "PokedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				859875421DC129C9004A0C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
